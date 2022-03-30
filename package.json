@@ -1,0 +1,24 @@
+{
+  "name": "case-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run lerna:bootstrap",
+    "build": "npm run lerna:build",
+    "lerna:bootstrap": "lerna bootstrap --hoist",
+    "lerna:build": "lerna run build --ignore \"**\\parent\" --ignore \"apps\\**\\*\"",
+    "lerna clean": "lerna run clean --ignore \"**\\parent\" --ignore \"apps\\**\\*\" && lerna clean --yes && rm -rf ./node_modules"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "4.0.0",
+    "@types/react": "17.0.43",
+    "@types/react-dom": "17.0.14"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}

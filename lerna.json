@@ -1,0 +1,14 @@
+{
+  "packages": [
+    "packages/*",
+    "apps/*"
+  ],
+  "commands": {
+    "exec": {
+      "ignore": [
+        "@case-system-app/*"
+      ]
+    }
+  },
+  "version": "independent"
+}

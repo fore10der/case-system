@@ -1,0 +1,7 @@
+{
+  "extends": "@case-system/parent/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+  },
+
+}
