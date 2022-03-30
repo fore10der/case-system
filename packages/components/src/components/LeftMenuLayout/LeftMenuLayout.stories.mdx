@@ -1,0 +1,22 @@
+import {Canvas, Meta, Story} from '@storybook/addon-docs';
+import { LeftMenuLayout } from "./LeftMenuLayout";
+
+<Meta
+  title="Components/Autocomplete"
+  component={LeftMenuLayout}
+  decorators={[
+    (Story) => <div style={{width: "750px", height: '750px'}}><Story/></div>
+  ]}
+/>
+
+export const Template = (args) => <LeftMenuLayout {...args} />
+
+Левое меню
+
+<Canvas>
+  <Story
+    name="Основной"
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>

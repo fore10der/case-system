@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@case-system/components": "0.0.1",
     "@case-system/parent": "0.0.1",
     "@case-system/webpack": "0.0.1",
     "html-webpack-plugin": "5.5.0"

@@ -1,0 +1,6 @@
+**/*/*.min.js
+.eslintrc.js
+node_modules
+target
+dist
+global.d.ts
