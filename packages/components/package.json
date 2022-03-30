@@ -1,0 +1,21 @@
+{
+  "name": "@case-system/components",
+  "version": "0.01",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "del ./dist -f",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mui/material": "5.5.3",
+    "@emotion/react": "11.8.2",
+    "@emotion/styled": "11.8.1"
+  },
+  "devDependencies": {
+    "@case-system/parent": "~0"
+  }
+}
